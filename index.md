@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# trello-butler
+Trello-Bulter steps to create reports
 
-You can use the [editor on GitHub](https://github.com/akalita-mms/trello-butler/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+With the integration of Bultler with Trello, now you can create custom reports for your Board.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+_Here is how:_
+1. Click on 'Butler' button in your Board
+2. Click on 'Calendar' left-navigation link
+3. Click on 'Create Command' button
+4. First, you'd have to Add a trigger: which is how ofter you want to generate the report. It can be daily, weekly, or any of the other options below:  
+![Schedule](https://github.com/akalita-mms/trello-butler/blob/main/select_schedule.JPG)
+5. Then, to create report, select the 'Other' option
+6. Add the filter for the cards to be included
+7. Also, the pattern to display can be formatted
+8. Fill up the email details. Here is an example of how it will look:  
+![Customize Report](https://github.com/akalita-mms/trello-butler/blob/main/customize_report.JPG)
+9. Add the above customizations, Save and you are all set! 
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/akalita-mms/trello-butler/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Please contact akalita@mms.org for any queries
