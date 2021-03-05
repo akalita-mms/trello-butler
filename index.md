@@ -1,5 +1,4 @@
 # trello-butler
-Trello-Bulter steps to create reports
 
 With the integration of Bultler with Trello, now you can create custom reports for your Board.
 
