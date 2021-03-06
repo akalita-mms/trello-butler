@@ -37,14 +37,14 @@
     font-size: 2rem;
   }
   
-  .big-text {
+  #bigText {
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -30%);
     font-size: 5rem;
     font-family: "Lobster", cursive;
-    color:  aqua;
+    color: brown;
     border: 2px;
   }
   
@@ -66,13 +66,13 @@
     left: 0;
     width: 100%;
     height: 100%;
-    transform: translateY(100%);
+    transform: translateY(120%);
   }
   
   .intro-text {
     color: rgb(233, 233, 233);
     font-family: "Heebo", sans-serif;
-    font-size: 3rem;
+    font-size: 3vw;
   }
   
   .hide {
@@ -81,6 +81,6 @@
   }
   
   .hide span {
-    transform: translateY(100%);
+    transform: translateY(120%);
     display: inline-block;
   }

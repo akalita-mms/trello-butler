@@ -15,20 +15,25 @@
     <main>
         <section class="landing">
           <nav>
-            <h1 id="logo">Doggy</h1>
+            <!-- <h1 id="logo">Doggy</h1>
             <ul class="nav-links">
               <li>Home</li>
-              <!-- <li>Contact</li>
-              <li>About</li> -->
-            </ul>
+              <li>Contact</li>
+              <li>About</li>
+            </ul> -->
           </nav>
-          <h2 class="big-text">Good Morning</h2>
+          <h2 id="bigText">Hello!</h2>
+          <script>
+            var element = document.getElementById("bigText");
+            var hour = new Date().getHours();
+            element.innerHTML = ("Good " + (hour<12 && "Morning!" || hour<18 && "Afternoon!" || "Evening!"));
+          </script>
         </section>
       </main>
       <div class="intro">
         <div class="intro-text">
           <h1 class="hide">
-            <span class="text">Two dogs</span>
+            <span class="text" >Two dogs</span>
           </h1>
           <h1 class="hide">
             <span class="text">For Inspiration</span>
