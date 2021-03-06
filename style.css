@@ -5,12 +5,15 @@
   }
   main {
     font-family: "Heebo", sans-serif;
+    color: aqua;
   }
   
   .landing {
     min-height: 100vh;
     background: url("./images/MnS2.jpg");
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     padding: 0rem 5rem;
   }
   nav {
@@ -22,6 +25,7 @@
   .nav-links {
     display: flex;
     list-style: none;
+    color: aqua;
   }
   .nav-links li {
     padding-left: 10rem;
@@ -40,7 +44,8 @@
     transform: translate(-50%, -30%);
     font-size: 5rem;
     font-family: "Lobster", cursive;
-    color: rgb(61, 61, 61);
+    color:  aqua;
+    border: 2px;
   }
   
   .intro {
